@@ -1,0 +1,15 @@
+public class  Main {
+    public static void main(String args[])
+    {
+        int store;
+        int check=0;
+        int a[]={1,5,12,6,4};
+        for(int i=0;i<a.length;i++)
+        {
+            if(check<a[i]||i==0)
+            {
+              check=a[i];  
+            }
+        }System.out.println(check);
+    }
+}
